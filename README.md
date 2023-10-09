@@ -1,8 +1,18 @@
 # Netflix-Movies-and-TV-Shows-Clustering
+# Objective
+The goal of the Netflix Movies and TV Show clustering project is to enhance the organization of content and improve the recommendation system on the Netflix platform. This project aims to achieve several key business objectives:
 
-This dataset consists of tv shows and movies available on Netflix as of 2019. The dataset was gathered through the third-party Netflix search engine Flixable. The amount of TV series available on Netflix has almost tripled since 2010, according to an interesting analysis that was published in 2018. Since 2010, the number of films available on the streaming service has dropped by more than 2,000, although the number of TV episodes has nearly tripled. Investigating what further insights may be drawn from the same dataset will be intriguing.
+Enhancing Content Discovery: The project seeks to improve the way users discover content by grouping similar movies and TV shows together.
 
-Approach:-
+Personalized Recommendations: It aims to enhance the recommendation system by suggesting content from the same clusters to users, making recommendations more tailored to individual preferences.
+
+Facilitating Content Curation: The project will enable the creation of thematic content collections, simplifying user navigation and increasing engagement by offering curated content.
+
+Informed Content Licensing: By gaining insights from content clusters, Netflix can make more informed decisions regarding licensing and acquiring new content.
+
+Boosting User Engagement: The ultimate goal is to increase user engagement and retention by providing content that aligns with individual preferences and interests.
+
+# Approach:-
 
 step 1: As the first step, viewing and cleaning the data, I mounted the drive, imported the required libraries, and then stored the data in variables to produce actionable insights. We next analyzed our data distribution using univariate, bivariate, and multivariate plots as the next step in the data analysis and visualization process. There was a multicollinearity check.
 
@@ -12,6 +22,8 @@ Step 3: As part of the feature engineering process, processed textual data, incl
 
 stage 4: As the final stage, clustering was carried out using various methods. I used K-Means, ElbowCurve, DBSCAN, Dendogram, and Agglomerative Clustering.
 
+# Conclusion
+
 I tried 5 models for ML i.e.
 
 K-means clustering,
@@ -19,6 +31,5 @@ K-means clustering,
  DBSCAN,
  Hierarchical clustering,
  Agglomerative clustering,
-K-means clustering shows that '4' will be the optimum no of clusters with the silhouette score. But Elbow curve cross-validation was giving optimum number of clusters as 11.
+K-means clustering shows that '4' will be the optimum no of clusters with the silhouette score.  Elbow curve cross-validation was giving optimum number of clusters as 11.
 
-Thus K-means clustering will be best for this data set.
